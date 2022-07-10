@@ -13,6 +13,7 @@
 		6420A21A2879F56400448FC0 /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6420A2192879F56400448FC0 /* MoviesListView.swift */; };
 		6420A21C2879F58300448FC0 /* MoviesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6420A21B2879F58300448FC0 /* MoviesListViewModel.swift */; };
 		6420A21E2879F67600448FC0 /* MoviesResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6420A21D2879F67600448FC0 /* MoviesResponce.swift */; };
+		648683BA287AB0F300FC1B7A /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648683B9287AB0F300FC1B7A /* MovieDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		6420A2192879F56400448FC0 /* MoviesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListView.swift; sourceTree = "<group>"; };
 		6420A21B2879F58300448FC0 /* MoviesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListViewModel.swift; sourceTree = "<group>"; };
 		6420A21D2879F67600448FC0 /* MoviesResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesResponce.swift; sourceTree = "<group>"; };
+		648683B9287AB0F300FC1B7A /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		6420A2152879F45900448FC0 /* MovieDetails */ = {
 			isa = PBXGroup;
 			children = (
+				648683B9287AB0F300FC1B7A /* MovieDetailsView.swift */,
 			);
 			path = MovieDetails;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				6420A2072879EC0400448FC0 /* MovieManiaApp.swift in Sources */,
 				6420A21C2879F58300448FC0 /* MoviesListViewModel.swift in Sources */,
 				6420A21E2879F67600448FC0 /* MoviesResponce.swift in Sources */,
+				648683BA287AB0F300FC1B7A /* MovieDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
