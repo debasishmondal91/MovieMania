@@ -13,7 +13,7 @@ class MoviesListViewModel: ObservableObject{
     
     func getMovies(){
         
-        let queryItems = [URLQueryItem(name: "api_key", value: "8ae5e4b9da79f1ca57263eb5f9214b3a")]
+        let queryItems = [URLQueryItem(name: "api_key", value: "API_KEY")]
         var urlComp = URLComponents(string: "https://api.themoviedb.org/3/movie/popular")
         urlComp?.queryItems = queryItems
         let url = urlComp?.url
