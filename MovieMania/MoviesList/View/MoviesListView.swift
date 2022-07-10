@@ -17,21 +17,23 @@ struct MoviesListView: View{
         NavigationView{
             List{
                 ForEach(viewModel.movies){ movie in
-                    
-                    HStack{
-                        AsyncImage(url: URL(string: "\(movie.posterURL)")) {image in
-                            image.resizable()
+                    NavigationLink(destination: MovieDetailsView(movie:movie)){
+                        
+                        HStack{
+                            AsyncImage(url: URL(string: "\(movie.posterURL)")) {image in
+                                image.resizable()
+                                
+                            }placeholder: {
+                                ProgressView()
+                            }.frame(width: 120, height: 120)
+                                .clipShape(RoundedRectangle(cornerRadius: 25))
                             
-                        }placeholder: {
-                            ProgressView()
-                        }.frame(width: 120, height: 120)
-                            .clipShape(RoundedRectangle(cornerRadius: 25))
-                        
-                        Text(movie.originalTitle)
-                            .bold()
-                        
-                    }.padding(3)
-                    
+                            Text(movie.originalTitle)
+                                .bold()
+                            
+                        }.padding(3)
+                    }
+        
                 }
             }.navigationTitle("Popular Movies")
         }
